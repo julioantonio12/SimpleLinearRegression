@@ -1,3 +1,5 @@
+package examples.slr;
+
 import java.util.Scanner;
 
 public class SimpleLinearRegression {
