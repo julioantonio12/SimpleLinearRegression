@@ -27,6 +27,7 @@ public class SimpleLinearRegression {
 		// b1 = ((n * sumXY) - (sumX * sumY)) / ((n * sumXSquare) - sumXSquare);
 		b1 = acum1 / acum2;
 		b0 = averageY - ((b1) * (sumX)/n);
+		System.out.println(String.format("Regression equation: Yest = %.4f + %.4f * x", b0, b1));
 		System.out.println(String.format("b1 = %.4f", b1));
 		System.out.println(String.format("b0 = %.4f", b0));
 	}
